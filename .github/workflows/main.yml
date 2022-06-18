@@ -23,7 +23,7 @@ jobs:
       - name: Check Project codesyle
         run: |
           sudo apt update
-          sudo apt install npm 
+          sudo apt npm install uuid@latest 
           npm install jscs -g
           jscs index.js | jscs
   
